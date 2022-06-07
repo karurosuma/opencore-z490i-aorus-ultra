@@ -1,8 +1,12 @@
-# OpenCore for Z490i Aorus Ultra (Monterey)
+# OpenCore Monterey for Z490i Aorus Ultra
 
 ## Spec
-* Motherboard: Gigabyte Z490i Aorus Ultra 
+* Motherboard: Gigabyte Z490i Aorus Ultra
+* CPU: Intel Core i7-10700K
 * GPU: Sapphire RX6600 Pulse 8GB
+* RAM: 64GB
+* LAN: Intel i225-V
+* WLAN: Intel Wi-Fi 6 AX201
 * OpenCore: 0.8.1
 
 # Getting Started
