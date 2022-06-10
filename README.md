@@ -1,12 +1,12 @@
 # OpenCore Monterey for Z490i Aorus Ultra
 
-# Getting Started
-## On Windows
+## Getting Started
+### On Windows
 1. Update i225-v firmware to latest version.<br>
    https://www.gigabyte.com/tw/Motherboard/Z490I-AORUS-ULTRA-rev-1x/support#support-dl-driver-lan
 2. Create USB Mapping using `USBToolbox`.<br>
    https://github.com/USBToolBox/tool
-## On macOS
+### On macOS
 2. Create macOS USB installer.<br>
    https://support.apple.com/en-us/HT201372
 3. Mount EFI volume and paste `EFI/` folder into `/Volumes/EFI/`.
@@ -16,7 +16,7 @@
    https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#using-gensmbios
 6. Boot from USB.
 
-# Spec
+## Spec
 * Motherboard: Gigabyte Z490i Aorus Ultra
 * Motherboard BIOS Version: F21a 
 * CPU: Intel Core i7-10700K
@@ -27,7 +27,7 @@
 * OpenCore: 0.8.1
 * macOS 12.4
 
-# BIOS Settings
+## BIOS Settings
 | Options | Status |
 | --- | --- |
 | Above 4G Decoding | Enabled |
@@ -40,5 +40,5 @@
 | Secure Boot | Disabled |
 | VT-d | Enabled |
 
-# Preview
+## Preview
 ![About This Mac](./preview.png)
