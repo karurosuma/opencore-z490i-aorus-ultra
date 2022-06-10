@@ -1,12 +1,12 @@
 # OpenCore Monterey for Z490i Aorus Ultra
-
+![About This Mac](./preview.png)
 ## Getting Started
-### On Windows
+#### On Windows
 1. Update i225-v firmware to latest version.<br>
    https://www.gigabyte.com/tw/Motherboard/Z490I-AORUS-ULTRA-rev-1x/support#support-dl-driver-lan
 2. Create USB Mapping using `USBToolbox`.<br>
    https://github.com/USBToolBox/tool
-### On macOS
+#### On macOS
 2. Create macOS USB installer.<br>
    https://support.apple.com/en-us/HT201372
 3. Mount EFI volume and paste `EFI/` folder into `/Volumes/EFI/`.
@@ -40,5 +40,6 @@
 | Secure Boot | Disabled |
 | VT-d | Enabled |
 
-## Preview
-![About This Mac](./preview.png)
+## Other
+### Enable Back I/O Panel Mic In port as Input
+Change `alcid=2` to `alcid=1` in `NVRAM -> 7C436110-AB2A-4BBB-A880-FE41995C9F82 -> boot-args` if you are not using them as output for 5.1 surround sound system.
