@@ -31,6 +31,7 @@
 | Options | Status |
 | --- | --- |
 | Above 4G Decoding | Enabled |
+| Resizable BAR Support | Auto |
 | CFG-Lock | Disabled |
 | CSM | Disabled |
 | EHCI/XHCI Hand-off | Enabled |
