@@ -1,4 +1,4 @@
-# OpenCore Monterey for Z490i Aorus Ultra
+# OpenCore for Z490i Aorus Ultra
 ![About This Mac](./preview.png)
 ## Getting Started
 #### On Windows
@@ -25,7 +25,7 @@
 * LAN: Intel i225-V
 * WLAN: Intel Wi-Fi 6 AX201
 * OpenCore: 0.8.1
-* macOS 12.4
+* macOS 12.5.1
 
 ## BIOS Settings
 | Options | Status |
