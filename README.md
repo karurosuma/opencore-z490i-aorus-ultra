@@ -11,6 +11,7 @@
    <br>https://support.apple.com/en-us/HT201372
 2. Mount EFI volume and paste `EFI/` folder into `/Volumes/EFI/`.
 3. Replace your generated `UTBMap.kext` on Windows in `/Volumes/EFI/OC/Kexts/`.
+4. Rename `config.plist.sample` to `config.plist`.
 4. Follow below instructions to update the `Platforminfo` section in `config.plist`.
    <br>https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#platforminfo
    <br>https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#using-gensmbios
@@ -24,8 +25,8 @@
 * RAM: 64GB
 * LAN: Intel i225-V
 * WLAN: Intel Wi-Fi 6 AX201
-* OpenCore: 0.8.1
-* macOS 12.6
+* OpenCore: 0.8.5
+* macOS 13.0
 
 ## BIOS Settings
 | Options | Status |
@@ -42,6 +43,8 @@
 | VT-d | Enabled |
 
 ## Other
-### Enable Back I/O Panel Mic In port as Input
-Change `alcid=2` to `alcid=1` in `NVRAM -> 7C436110-AB2A-4BBB-A880-FE41995C9F82 -> boot-args` if you are not using them as output for 5.1 surround sound system.
-<br> Reference: https://github.com/acidanthera/AppleALC/blob/master/Resources/ALC1220/Info.plist
+### Intel Wi-Fi is not working
+Please wait for the update of [Airportitlwm](https://github.com/OpenIntelWireless/itlwm/releases) that support macOS 13.0.
+
+### macOS Monterey support
+Please switch to branch [0.8.1](https://github.com/karurosuma/opencore-z490i-aorus-ultra/tree/0.8.1).
