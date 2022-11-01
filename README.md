@@ -11,6 +11,7 @@
    <br>https://support.apple.com/en-us/HT201372
 2. Mount EFI volume and paste `EFI/` folder into `/Volumes/EFI/`.
 3. Replace your generated `UTBMap.kext` on Windows in `/Volumes/EFI/OC/Kexts/`.
+4. Rename `config.plist.sample` to `config.plist`.
 4. Follow below instructions to update the `Platforminfo` section in `config.plist`.
    <br>https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#platforminfo
    <br>https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#using-gensmbios
