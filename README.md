@@ -26,7 +26,7 @@
 * LAN: Intel i225-V
 * WLAN: Intel Wi-Fi 6 AX201
 * OpenCore: 0.8.5
-* macOS 13.0
+* macOS 13.0-13.1
 
 ## BIOS Settings
 | Options | Status |
